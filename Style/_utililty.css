@@ -1,0 +1,126 @@
+:root{
+    --blue-theme:#239BD8;
+    --gray:#434343;
+    --light-gray:#F6F9FF;
+    --linear-green:linear-gradient(180deg, #1E9781 0%, #22C3A6 100%);
+    --txt-gray: #7C8DB0;
+    --footer-line-gray:#E4E4E4;
+    --footer-text-gray:#A1A1A1;
+
+}
+
+/*  font size   */
+
+.fs-18{
+    font-size: 1.8rem;
+}
+.fs-24{
+    font-size: 2.4rem;
+}
+.fs-28{
+    font-size: 2.8rem;
+}
+.fs-32{
+    font-size: 3.2rem;
+}
+.fs-36{
+    font-size: 3.6rem;
+}
+.fs-48{
+    font-size: 4.8rem;
+}
+
+/*  font family */
+
+.ff-nunito-400{
+    font-family: nunito-400;
+}
+.ff-nunito-600{
+    font-family: nunito-600;
+}
+.ff-nunito-700{
+    font-family: nunito-700;
+}
+.ff-montserrat-400{
+    font-family: montserrat-400;
+}
+
+/*  margin  */
+
+/*  margin left */
+
+.ml-20{
+    margin-left : 2rem;
+}
+.ml-30{
+    margin-left: 3rem;
+}
+.ml-55{
+    margin-left: 5.5rem;
+}
+.ml-25{
+    margin-left: 2.5rem;
+}
+.ml-48{
+    margin-left: 4.8rem;
+}
+
+/*  margin top  */
+
+.mt-30{
+    margin-top: 3rem;
+}
+
+.mt-12{
+    margin-top: 1.2rem;
+}
+
+.mt-45{
+    margin-top: 4.5rem;
+}
+
+.mt-144{
+    margin-top: 14.4rem;
+}
+
+/*  color   */
+
+.txt-blue-theme{
+    color: var(--blue-theme);
+}
+
+.txt-gray{
+    color: var(--gray);
+}
+
+.txt-linear-green{
+    color: var(--linear-green);
+}
+
+.txt-special-gray{
+    color: var(--txt-gray);
+}
+
+.txt-footer-gray{
+    color: var(--footer-text-gray);
+}
+
+/*  background color    */
+
+.bg-blue-theme{
+    background-color: var(--blue-theme);
+}
+
+.bg-light-gray{
+    background-color: var(--light-gray);
+}
+
+.bg-footer-line{
+    background-color: var(--footer-line-gray);
+}
+
+/*  line height */
+
+.ln-24-5{
+    line-height: 2.45rem;
+}

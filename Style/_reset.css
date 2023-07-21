@@ -1,0 +1,36 @@
+@import url(./_utililty.css);
+@import url(./bootstrap.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:wght@400;600;700&display=swap');
+
+@font-face {
+    font-family:"nunito-400";
+    src: url(../Asset/fonts/NunitoSans-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family:"nunito-600";
+    src: url(../Asset/fonts/NunitoSans-SemiBold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family:"nunito-700";
+    
+    src: url(../Asset/fonts/NunitoSans-Bold.woff2) format("woff2");
+}
+@font-face {
+    font-family:"montserrat-400";
+    src: url(../Asset/fonts/Montserrat-Regular.woff2) format("woff2");
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
